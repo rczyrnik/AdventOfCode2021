@@ -7,7 +7,6 @@ def read_data(file_name):
 	return [line.strip() for line in raw_lines]
 
 fish_age_list = [int(x) for x in read_data('input2.csv')[0].split(",")]
-
 fish_age_dict = Counter(fish_age_list)
 
 
